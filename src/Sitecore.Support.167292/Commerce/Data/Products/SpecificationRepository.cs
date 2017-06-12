@@ -10,7 +10,6 @@ namespace Sitecore.Support.Commerce.Data.Products
         public SpecificationRepository(string specificationTemplateId, string specificationLookupTemplateId, ArtifactRepository<GlobalSpecificationOption> specificationOptionRepository) : base(specificationTemplateId, specificationLookupTemplateId, specificationOptionRepository)
         {
         }
-
         protected override void UpdateEntityItem(Item entityItem, GlobalSpecification entity)
         {
             #region fix
